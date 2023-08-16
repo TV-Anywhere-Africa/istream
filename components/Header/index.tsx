@@ -80,9 +80,9 @@ export default function Header({
               <Image
                 src="/assets/logo.png"
                 alt="logo"
-                className="w-[135px] -ml-5"
-                width={135}
-                height={135}
+                className="w-[300px] -ml-14"
+                width={300}
+                height={300}
               />
             </Link>
             <nav className="-ml-[80px] hidden md:block">

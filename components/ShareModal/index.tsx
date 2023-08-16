@@ -9,8 +9,6 @@ import { motion } from "framer-motion";
 import copyToClipboard from "~/utils/copyToClipboard.util";
 import { useRouter } from "next/router";
 
-// Watch {title} on mcini.tv
-
 export default function ShareModal({
   show,
   onClose,
