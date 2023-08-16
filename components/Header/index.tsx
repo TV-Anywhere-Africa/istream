@@ -103,7 +103,7 @@ export default function Header({
                     TV Series
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link
                     className={
                       pathname === ROUTES.packages ? "text-primary" : ""
@@ -112,7 +112,7 @@ export default function Header({
                   >
                     Subscribe
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

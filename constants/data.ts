@@ -2092,13 +2092,13 @@ export const anon_categories: Category[] = [
 ];
 
 export const defaultMeta = {
-  title: "mCini TV",
-  site_name: "mcini tv",
-  domain: "https://mcini.tv",
-  url: "mcini.tv",
-  twitterCreator: "@mcinitv",
-  description: "Enjoy your favourite movies on mCini TV ",
+  title: "iStream",
+  site_name: "istream",
+  domain: "",
+  url: "",
+  twitterCreator: "",
+  description: "Enjoy your favourite movies on iStream ",
   image:
     "https://res.cloudinary.com/follio/image/upload/v1689874004/rqmjmlucasgps2cesl1o.png",
-  image_alt: "Page image for mCini",
+  image_alt: "Page image for iStream",
 };
