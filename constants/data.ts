@@ -2099,6 +2099,6 @@ export const defaultMeta = {
   twitterCreator: "",
   description: "Enjoy your favourite movies on iStream ",
   image:
-    "https://res.cloudinary.com/follio/image/upload/v1689874004/rqmjmlucasgps2cesl1o.png",
+    "https://res.cloudinary.com/follio/image/upload/v1692984905/c8ltawwhk9tcqf1ocr8l.png",
   image_alt: "Page image for iStream",
 };
