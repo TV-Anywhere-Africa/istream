@@ -40,7 +40,7 @@ export default function Favorites(): JSX.Element {
 
   return (
     <AuthCheckLayout>
-      <Meta title="mCini - My Favorites" />
+      <Meta title="istream - My Favorites" />
       <Header />
       <main className="mt-[120px] px-5 max-w-[1500px] m-auto">
         <h1 className="text-2xl font-[500] mb-5">My Favorites</h1>

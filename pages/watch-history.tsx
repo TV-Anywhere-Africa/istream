@@ -72,7 +72,7 @@ export default function WatchHistory(): JSX.Element {
 
   return (
     <AuthCheckLayout>
-      <Meta title="mCini - My Watch History" />
+      <Meta title="istream - My Watch History" />
       <Header />
       <main className="mt-[120px] px-5 max-w-[1500px] m-auto">
         <h1 className="text-2xl font-[500] mb-5">My Watch History</h1>

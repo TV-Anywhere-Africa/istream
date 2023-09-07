@@ -17,11 +17,7 @@ export default function Footer() {
               <h3 className="text-xl font-[500]">Connect with us</h3>
               <ul className="flex items-center gap-5 mt-5">
                 <li>
-                  <Link
-                    target="blank_"
-                    rel="noreferer"
-                    href="https://www.facebook.com/mCinitv"
-                  >
+                  <Link target="blank_" rel="noreferer" href="">
                     <FaFacebook
                       className="hover:text-primary transition-all"
                       size={30}
@@ -29,11 +25,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    target="blank_"
-                    rel="noreferer"
-                    href="https://twitter.com/mcinitv"
-                  >
+                  <Link target="blank_" rel="noreferer" href="">
                     <BsTwitter
                       className="hover:text-primary transition-all"
                       size={30}
@@ -41,11 +33,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    target="blank_"
-                    rel="noreferer"
-                    href="https://instagram.com/mcinitv"
-                  >
+                  <Link target="blank_" rel="noreferer" href="">
                     <RiInstagramFill
                       className="hover:text-primary transition-all"
                       size={30}
@@ -78,9 +66,12 @@ export default function Footer() {
                   </Link>
                 </li> */}
                 <li>
-                  <Link href="mailto:support@mcini.tv" className="flex gap-3">
+                  <Link
+                    href="mailto:support@istream.com"
+                    className="flex gap-3"
+                  >
                     <MdEmail />
-                    <p>support@mcini.tv</p>
+                    <p>support@istream.com</p>
                   </Link>
                 </li>
               </ul>
@@ -129,7 +120,7 @@ export default function Footer() {
       </>
       <div className="dark:bg-[#2f353b] bg-[#232a3a] p-5 text-center">
         <p className="text-md text-gray-200">
-          Copyright &copy;{new Date().getFullYear()} mCini Inc.
+          Copyright &copy;{new Date().getFullYear()} istream Inc.
         </p>
       </div>
     </footer>

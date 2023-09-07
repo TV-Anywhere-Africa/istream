@@ -171,7 +171,7 @@ export default function Watch() {
     <main className="overflow-hidden h-screen w-screen">
       <Meta
         title={
-          details?.title ? `Watch ${details?.title} on mCinit TV` : "mCini TV"
+          details?.title ? `Watch ${details?.title} on istream` : "istream"
         }
         image_alt={`${details?.title ?? `Poster for ${details?.title}`}`}
         description={details?.description}

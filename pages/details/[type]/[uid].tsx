@@ -168,7 +168,7 @@ export default function Watch() {
   return (
     <>
       <Meta
-        title={mediaDetails?.title ?? "mCini TV"}
+        title={mediaDetails?.title ?? "istream TV"}
         image_alt={`${
           mediaDetails?.title ?? `Poster for ${mediaDetails?.title}`
         }`}

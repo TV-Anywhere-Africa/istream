@@ -442,7 +442,7 @@ const LOG_MESSAGES = {
   playMovie: "User played movie",
   playLive: "User played live TV channel",
   playSeries: "User played series",
-  visitLandingGlobal: "User visited mCini web",
+  visitLandingGlobal: "User visited istream web",
   visitLandingGH: "User visited Ghana instance",
   visitLandingNG: "User visited Nigeria instance",
   search: "User searched for content",

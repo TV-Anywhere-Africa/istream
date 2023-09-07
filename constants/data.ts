@@ -152,7 +152,7 @@ export const anon_categories: Category[] = [
     ],
   },
   {
-    title: "mCini Recommended",
+    title: "Recommended",
     id: 7235,
     content: [
       {

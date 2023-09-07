@@ -44,7 +44,7 @@ export default function Series() {
 
   return (
     <AuthCheckLayout>
-      <Meta title="mCini - Series" />
+      <Meta title="istream - Series" />
       <Header />
       <section className="mt-32">
         <ul className="grid grid-cols-2 md:grid-cols-7 px-5 gap-5 max-w-[1500px] m-auto">

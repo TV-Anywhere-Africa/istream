@@ -5,19 +5,19 @@ import Meta from "~/components/Meta";
 export default function Privacy(): JSX.Element {
   return (
     <>
-      <Meta title="mCini - Privacy Policy" />
+      <Meta title="istream - Privacy Policy" />
       <Header />
       <main className="mt-[150px] max-w-[800px] pb-10 m-auto px-5">
         <h1 className="text-2xl font-[500] mb-10 text-primary">
-          Privacy Policy for mCini Video on Demand (VOD) in Ghana and African
+          Privacy Policy for istream Video on Demand (VOD) in Ghana and African
           Market
         </h1>
         <p className="leading-[31px]">
-          At mCini, we are committed to protecting the privacy and personal
+          At istream, we are committed to protecting the privacy and personal
           information of our users in Ghana and the African market. This Privacy
           Policy outlines how we collect, use, disclose, and safeguard your data
           when you access and use our video-on-demand (VOD) platform. By using
-          mCini, you consent to the practices described in this policy.
+          istream, you consent to the practices described in this policy.
         </p>
         <br />
         <ul className="gap-5 grid">
@@ -111,7 +111,7 @@ export default function Privacy(): JSX.Element {
             <b>7.Contact Us:</b>
             <p className="leading-[31px]">
               7.1. If you have any questions, concerns, or requests regarding
-              this Privacy Policy or the privacy practices of mCini, please
+              this Privacy Policy or the privacy practices of istream, please
               contact us through the provided channels.
             </p>
           </li>

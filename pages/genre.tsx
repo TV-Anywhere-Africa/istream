@@ -75,7 +75,7 @@ export default function GenrePage(): JSX.Element {
 
   return (
     <AuthCheckLayout>
-      <Meta title="mCini - Genres" />
+      <Meta title="istream - Genres" />
       <Header />
       <main className="mt-[100px]">
         <ul className="flex items-center gap-3 overflow-x-scroll max-w-[1500px] m-auto py-3 pr-[100px]">
