@@ -183,7 +183,7 @@ export default function AuthModal({
       <motion.div
         initial={{ opacity: 0, y: -400 }}
         animate={{ opacity: 1, y: -300 }}
-        className="w-full max-w-[450px] m-5"
+        className="w-full max-w-[450px] m-5 pt-[100px] md:pt-0"
       >
         {!isVerifyOTP ? (
           <form

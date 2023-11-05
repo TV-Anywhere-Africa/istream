@@ -40,7 +40,7 @@ export default function Home() {
     { title: string; content: Movie[] }[]
   >([]);
 
-  console.log(userInfoCookie);
+  console.log({ categoryMovies });
 
   useEffect(() => {
     if (!userInfoCookie) replace(ROUTES.index);

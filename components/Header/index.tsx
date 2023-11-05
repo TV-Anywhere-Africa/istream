@@ -161,7 +161,9 @@ export default function Header({
               )}
             </div>
             {!profile ? (
-              <Button onClick={toggleShowAuthModal}>Sign In / Sign Up</Button>
+              <Button onClick={toggleShowAuthModal} className="hidden md:block">
+                Sign In / Sign Up
+              </Button>
             ) : (
               <div
                 className="relative"

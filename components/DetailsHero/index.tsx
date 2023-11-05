@@ -87,7 +87,7 @@ export default function DetailsHero({
         show={showShareModal}
         onClose={toggleShowShareModal}
       />
-      <section className="relative w-full text-white overflow-hidden">
+      <section className="relative w-full text-white overflow-hidden md:pt-0 pt-[300px]">
         <Player
           src={trailerURL}
           poster={getThumbnail(poster)}
