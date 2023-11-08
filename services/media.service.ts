@@ -286,7 +286,8 @@ export async function fetchTrailer(
     });
     return trailer.data.data.url;
   } catch (error: any) {
-    throw Error(error.message);
+    // throw Error(error.message);
+    return error.message;
   }
 }
 

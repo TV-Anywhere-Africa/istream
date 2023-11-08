@@ -146,18 +146,19 @@ export default function MediaCard({
       onMouseEnter={onMouseHover}
       onMouseLeave={onMouseLeave}
     >
-      {!isMobile &&
-      userInfoCookie &&
-      showAltMode &&
-      currentlyHoveredMedia === String(uid + currentIndex) ? (
-        <div
-          onMouseLeave={onMouseLeave}
-          className={`absolute bg-white dark:bg-[#141414] rounded-md p-2 scale-[1.2] mt-[20px] w-[350px] h-max -ml-[55px] alt-media-card z-[20] max-h-[280px] ${
-            currentIndex === 0 && "ml-[60px]"
-          } ${currentIndex === maxIndex && "-ml-[160px]"}`}
-        >
-          {trailer ? (
-            <Link href={targetPage}>
+      <Link href={targetPage}>
+        {!isMobile &&
+        userInfoCookie &&
+        showAltMode &&
+        currentlyHoveredMedia === String(uid + currentIndex) ? (
+          <div
+            onMouseLeave={onMouseLeave}
+            className={`absolute bg-white dark:bg-[#141414] rounded-md p-2 scale-[1.2] mt-[20px] w-[350px] h-max -ml-[55px] alt-media-card z-[20] max-h-[280px] ${
+              currentIndex === 0 && "ml-[60px]"
+            } ${currentIndex === maxIndex && "-ml-[160px]"}`}
+          >
+            {trailer ? (
+              // <Link href={targetPage}>
               <Player
                 poster={getThumbnail(poster)}
                 src={trailer}
@@ -165,52 +166,53 @@ export default function MediaCard({
                 autoPlay
                 className="h-[150px] w-full bg-gray-200 dark:bg-black"
               />
-            </Link>
-          ) : (
-            <div className="h-[150px] w-full bg-gray-200 dark:bg-black"></div>
-          )}
-          <div className="text-sm px-2 w-full h-full">
-            <div className="flex items-center justify-between">
-              <p className="font-[500] truncate">
-                {capitalizeFirstLetters(title)}
-              </p>
-              <Link href={targetPage}>
-                <Button variant="text" className="text-[10px] text-primary">
-                  More info
-                  <FiChevronRight className="-ml-1" />
-                </Button>
-              </Link>
-            </div>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="opacity-80 max-lines-3 leading-[17px] text-[10px]"
-            >
-              {details?.description}
-            </motion.p>
-            {/* <Link href={targetPage}>
+            ) : (
+              // </Link>
+              <div className="h-[150px] w-full bg-gray-200 dark:bg-black"></div>
+            )}
+            <div className="text-sm px-2 w-full h-full">
+              <div className="flex items-center justify-between">
+                <p className="font-[500] truncate">
+                  {capitalizeFirstLetters(title)}
+                </p>
+                <Link href={targetPage}>
+                  <Button variant="text" className="text-[10px] text-primary">
+                    More info
+                    <FiChevronRight className="-ml-1" />
+                  </Button>
+                </Link>
+              </div>
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="opacity-80 max-lines-3 leading-[17px] text-[10px]"
+              >
+                {details?.description}
+              </motion.p>
+              {/* <Link href={targetPage}>
               <div className="hover:opacity-60 transition-all w-[33px] h-[33px] p-2 pl-[10px] bg-white rounded-full flex items-center justify-center">
                 <FaPlay color="black" />
               </div>
             </Link> */}
+            </div>
           </div>
-        </div>
-      ) : (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-          <Link href={targetPage} className="cursor-pointer">
-            <Image
-              alt={`poster of ${title}`}
-              width={100}
-              height={300}
-              src={poster}
-              className={styles.thumbnail}
-            />
-          </Link>
-          {showTitle && (
-            <p className="mt-2 text-sm">{capitalizeFirstLetters(title)}</p>
-          )}
-        </motion.div>
-      )}
+        ) : (
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            <Link href={targetPage} className="cursor-pointer">
+              <Image
+                alt={`poster of ${title}`}
+                width={100}
+                height={300}
+                src={poster}
+                className={styles.thumbnail}
+              />
+            </Link>
+            {showTitle && (
+              <p className="mt-2 text-sm">{capitalizeFirstLetters(title)}</p>
+            )}
+          </motion.div>
+        )}
+      </Link>
     </div>
   );
 
